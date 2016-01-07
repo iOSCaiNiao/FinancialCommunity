@@ -10,9 +10,7 @@
 		ABF9B7DE1C3EC01D00373C93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF9B7DD1C3EC01D00373C93 /* main.m */; };
 		ABF9B7E11C3EC01D00373C93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF9B7E01C3EC01D00373C93 /* AppDelegate.m */; };
 		ABF9B7E41C3EC01D00373C93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF9B7E31C3EC01D00373C93 /* ViewController.m */; };
-		ABF9B7E71C3EC01D00373C93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF9B7E51C3EC01D00373C93 /* Main.storyboard */; };
 		ABF9B7E91C3EC01D00373C93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF9B7E81C3EC01D00373C93 /* Images.xcassets */; };
-		ABF9B7EC1C3EC01D00373C93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF9B7EA1C3EC01D00373C93 /* LaunchScreen.xib */; };
 		ABF9B7F81C3EC01D00373C93 /* FinancialCommunityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF9B7F71C3EC01D00373C93 /* FinancialCommunityTests.m */; };
 /* End PBXBuildFile section */
 
@@ -34,9 +32,7 @@
 		ABF9B7E01C3EC01D00373C93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ABF9B7E21C3EC01D00373C93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ABF9B7E31C3EC01D00373C93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ABF9B7E61C3EC01D00373C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABF9B7E81C3EC01D00373C93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		ABF9B7EB1C3EC01D00373C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ABF9B7F11C3EC01D00373C93 /* FinancialCommunityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancialCommunityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF9B7F61C3EC01D00373C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABF9B7F71C3EC01D00373C93 /* FinancialCommunityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinancialCommunityTests.m; sourceTree = "<group>"; };
@@ -85,9 +81,7 @@
 				ABF9B7E01C3EC01D00373C93 /* AppDelegate.m */,
 				ABF9B7E21C3EC01D00373C93 /* ViewController.h */,
 				ABF9B7E31C3EC01D00373C93 /* ViewController.m */,
-				ABF9B7E51C3EC01D00373C93 /* Main.storyboard */,
 				ABF9B7E81C3EC01D00373C93 /* Images.xcassets */,
-				ABF9B7EA1C3EC01D00373C93 /* LaunchScreen.xib */,
 				ABF9B7DB1C3EC01D00373C93 /* Supporting Files */,
 			);
 			path = FinancialCommunity;
@@ -199,8 +193,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF9B7E71C3EC01D00373C93 /* Main.storyboard in Resources */,
-				ABF9B7EC1C3EC01D00373C93 /* LaunchScreen.xib in Resources */,
 				ABF9B7E91C3EC01D00373C93 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +234,6 @@
 			targetProxy = ABF9B7F21C3EC01D00373C93 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		ABF9B7E51C3EC01D00373C93 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABF9B7E61C3EC01D00373C93 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ABF9B7EA1C3EC01D00373C93 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABF9B7EB1C3EC01D00373C93 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ABF9B7F91C3EC01D00373C93 /* Debug */ = {
